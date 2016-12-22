@@ -10,7 +10,20 @@ body {
 }
 .navbar-inverse {
     background-color: black;
-    border-color: #080808;
+    border-color: white;
+    height:92px;
+}
+.navbar-black {
+  background-color: black;
+}
+.navRight {
+  padding:15px;
+}
+.nav a {
+  font-size:24px;
+}
+img.icon {
+  margin-top:-15px;
 }
 .text-border {
   border-right: 1px solid white;
@@ -25,15 +38,6 @@ img.top {
   margin:auto;
   padding-top:15%;
 }
-.navbar-black {
-  background-color: black;
-}
-.nav a {
-  font-size:24px;
-}
-img.icon {
-  margin-top:-20px;
-}
 span {
   text-decoration: none;
   color:white;
@@ -42,5 +46,17 @@ span {
     color: #ffffff;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: green;
+    color: gray;
+}
+@media screen and (min-width: 767px) {
+  .navbar-inverse {
+      background-color: black;
+      border-color: black;
+      height:92px;
+      text-align:center;
+  }
+  .navRight {
+    padding:0px;
+    text-align:center;
+  }
 }
