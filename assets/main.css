@@ -1,0 +1,46 @@
+body {
+  background-color:black;
+}
+.home {
+  text-align:center;
+  padding-top:10%;
+}
+.text-center {
+  text-align: center;
+}
+.navbar-inverse {
+    background-color: black;
+    border-color: #080808;
+}
+.text-border {
+  border-right: 1px solid white;
+}
+img.top {
+  padding-top:15%;
+  display: block;
+  margin: 0 auto;
+}
+.side-text {
+  color:white;
+  margin:auto;
+  padding-top:15%;
+}
+.navbar-black {
+  background-color: black;
+}
+.nav a {
+  font-size:24px;
+}
+img.icon {
+  margin-top:-20px;
+}
+span {
+  text-decoration: none;
+  color:white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: green;
+}
